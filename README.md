@@ -2,19 +2,15 @@
 Dockerized Starbound server.
 
 ## How to use
-1) Clone this repository.
+1) Use docker-compose to deploy the container.
 
-       git clone https://github.com/bendwyer/docker-starbound.git
+       docker-compose up -d starbound
 
-2) Use docker-compose to build the image and deploy a container.
+2) Download and install the Starbound server files.
 
-       docker-compose up -d --build starbound
-
-3) Download and install the Starbound server files.
-
-       docker exec -it -u steam starbound /home/steam/starbound/update.sh steam_username
+       docker exec -it -u steam starbound bash -c '/home/steam/starbound/update.sh steam_username'
        
-4) Done!
+3) Done!
 
 ## Notes
 - Runs as `steam` user rather than root
