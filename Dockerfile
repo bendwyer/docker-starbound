@@ -14,6 +14,8 @@ RUN mkdir ${STEAMAPPDIR}
 
 COPY --chown=steam:steam start.sh update.sh .update ${STEAMAPPDIR}/
 
+RUN chmod+x start.sh update.sh
+
 WORKDIR ${STEAMAPPDIR}
 VOLUME ${STEAMAPPDIR}
 
