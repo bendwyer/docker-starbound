@@ -3,7 +3,7 @@ version: "3.7"
 services:
 
   starbound:
-    build: .
+    image: bendwyer/docker-starbound
     container_name: starbound
     restart: always
     volumes:
