@@ -4,7 +4,7 @@ Dockerized Starbound server.
 ## How to use
 1) Clone this repository.
 
-       https://github.com/bendwyer/docker-starbound.git
+       git clone https://github.com/bendwyer/docker-starbound.git
 
 2) Use docker-compose to build the image and deploy a container.
 
