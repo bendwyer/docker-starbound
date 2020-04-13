@@ -21,7 +21,7 @@ Dockerized Starbound server.
 - No saved credentials; Steam credentials must be entered manually
 - The `starbound_server.config` file is located inside the Docker volume  
        
-       /starbound-data/_data/storage/starbound_server.config
+       starbound-data/_data/storage/starbound_server.config
 
 ## Credit
 https://github.com/Morgyn/docker-starbound  
