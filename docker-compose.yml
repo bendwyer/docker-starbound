@@ -1,0 +1,18 @@
+version: "3.7"
+
+services:
+
+  starbound:
+    build: .
+    container_name: starbound
+    restart: always
+    volumes:
+      - starbound-data:/home/steam/starbound
+    ports:
+      - 21025:21025
+
+volumes:
+  starbound-data:
+    name: starbound-data
+
+# docker-compose up --build starbound 
