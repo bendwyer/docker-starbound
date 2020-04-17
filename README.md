@@ -2,7 +2,7 @@
 Dockerized Starbound server.
 
 ## How to use
-1) Use docker-compose to deploy the container. A sample `docker-compose.yml` file can be found [here](https://github.com/bendwyer/docker-starbound/blob/master/docker-compose.yml)
+1) Use docker-compose to deploy the container. A sample `docker-compose.yml` file can be found [here](https://github.com/bendwyer/docker-starbound/blob/master/docker-compose.yml).
 
        docker-compose up -d starbound
 
